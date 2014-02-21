@@ -1,0 +1,40 @@
+{
+  "duke": [
+    {
+      "20140120": {
+        "opponent": "North Carolina",
+        "tipoff": "9:00 PM",
+        "audio": "http://www.goduke.com/mediaPortal/player.dbml?id=1099503&catid=0&DB_OEM_ID=4200",
+        "espn": "http://espn.go.com/watchespn/index/_/id/1699005/Mens-College-Basketball-Duke-vs-North-Carolina"
+      },
+
+      "20140222": {
+        "opponent": "Syracuse",
+        "tipoff": "7:00 PM",
+        "audio": "",
+        "espn": "http://espn.go.com/watchespn/index/_/id/1501850/Mens-College-Basketball-Syracuse-vs-Duke"
+      },
+
+      "20140225": {
+        "opponent": "Virginia Tech",
+        "tipoff": "7:00 PM",
+        "audio": "",
+        "espn": "http://espn.go.com/watchespn/index/_/id/1501952/Mens-College-Basketball-Virginia-Tech-vs-Duke"
+      },
+
+      "20140305": {
+        "opponent": "Wake Forest",
+        "tipoff": "7:00 PM",
+        "audio": "",
+        "espn": ""
+      },
+
+      "20140120": {
+        "opponent": "North Carolina",
+        "tipoff": "9:00 PM",
+        "audio": "",
+        "espn": ""
+      },
+    }
+  ]
+}

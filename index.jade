@@ -1,0 +1,52 @@
+h1 Welcome to Harp.
+h3 This is yours to own. Enjoy.
+#output
+
+script.
+
+  var date = new Date(),
+      day = date.getDate(),
+      month = date.getMonth()+1,
+      year = date.getFullYear();
+
+  if(day<10){day='0'+day} if(month<10){month='0'+month} today = year+month+day;
+
+  var data = [
+      {
+        "date": "20140220",
+        "opponent": "North Carolina",
+        "tipoff": "9:00 PM"
+      },
+      {
+        "date": "20140222",
+        "opponent": "Syracuse",
+        "tipoff": "7:00 PM"
+      },
+      {
+        "date": "20140225",
+        "opponent": "Virginia Tech",
+        "tipoff": "7:00 PM"
+      },
+      {
+        "date":"20140305",
+        "opponent": "Wake Forest",
+        "tipoff": "7:00 PM"
+      },
+      {
+        "date": "20140120",
+        "opponent": "North Carolina",
+        "tipoff": "9:00 PM"
+      },
+    ];
+
+  var found = getGameByDate(today);
+
+  function getGameByDate(date) {
+    return data.filter(
+      function(data){return data.date == date}
+    );
+  }
+
+
+  document.getElementById('output').innerHTML=found[0].opponent;
+  document.write(today);
